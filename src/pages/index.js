@@ -1,6 +1,6 @@
 import Head from "next/head";
 import PrivacyPolicyList from "./legal/privacy-policy";
-import LandingPage from "./landingWeb/LandingPage";
+import LandingPage from "./landingWeb";
 
 export default function Home() {
   return (
