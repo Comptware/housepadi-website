@@ -102,7 +102,7 @@ const SectionThree = () => {
                                 <div className='flex flex-col w-[90%] xxlg:w-[85%] gap-[22px] '>
                                     <div className='w-[704px] pt-[80px] flex flex-col gap-[22px]'>
                                         <p className='text-[40px] font-bold'>About Us</p>
-                                        <p className="text-[24px]">At HousePadi, we're redefining meaning of home convenience. As a dynamic startup, we currently offer expertly crafted meals from professional chefs and top-tier laundry services that bring freshness right to your door. Soon, we'll be expanding our repertoire to include hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we've got your home needs covered.</p>
+                                        {/* <p className="text-[24px]">At HousePadi, we're redefining meaning of home convenience. As a dynamic startup, we currently offer expertly crafted meals from professional chefs and top-tier laundry services that bring freshness right to your door. Soon, we'll be expanding our repertoire to include hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we've got your home needs covered.</p> */}
                                     </div>
                                 </div>
 
