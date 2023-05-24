@@ -159,7 +159,7 @@ module.exports = {
         "90%": "90%",
       },
       screens: {
-        "4xs": "300px",
+        "4xs": "330px",
         "3xs": "380px",
         "2xs": "475px",
         xs: "540px",
