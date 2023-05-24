@@ -163,10 +163,7 @@ module.exports = {
         "3xs": "380px",
         "2xs": "475px",
         xs: "540px",
-        llg: '885px',
-        slg: "980px",
-        xlg: '1090px',
-        xxlg: '1200px'
+        slg: "910px",
       },
       margin: {
         "-85px": "-85px",
