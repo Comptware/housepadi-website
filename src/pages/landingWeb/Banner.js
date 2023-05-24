@@ -2,8 +2,7 @@ import React from 'react'
 import Apple from '../../assets/icons/apple.svg'
 import Google from '../../assets/icons/google.svg'
 import Phone from '../../assets/image/Phone.svg'
-import Iphone from '../../assets/image/iPhone.svg'
-
+import Phoness from '../../assets/image/Phoness.png'
 
 
 const Banner = () => {
@@ -25,12 +24,8 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className='w-full justify-center slg:justify-end slg:mt-[130px] hidden 2xs:flex'>
+            <div className='w-full flex justify-center slg:justify-end slg:mt-[130px]'>
                 <Phone/>
-            </div>
-
-            <div className='w-full flex justify-center slg:justify-end slg:mt-[130px] bg-[#7DD13A] 2xs:hidden'>
-                <Iphone/>
             </div>
 
 
