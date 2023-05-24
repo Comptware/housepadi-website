@@ -53,11 +53,11 @@ const PrivacyPolicyList = () => {
                     } else if (str.includes(linkIndicator)) {
                       return str.split(" ").map((linkStr) => {
                         const linkStrLink = linkStr.includes(
-                          "info@housepadi.ng"
+                          "info@housepadi.com"
                         )
-                          ? "mailto:info@housepadi.ng"
-                          : linkStr.includes("housepadi.ng")
-                          ? "https://housepadi.ng/"
+                          ? "mailto:info@housepadi.com"
+                          : linkStr.includes("housepadi.com")
+                          ? "https://housepadi.com/"
                           : "";
                         return linkStr.includes(linkIndicator)
                           ? renderTextLink(
