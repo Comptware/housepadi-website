@@ -6,7 +6,7 @@ import PrivacyPolicyList from 'pages/legal/privacy-policy'
 const Footer = () => {
     return (
         <div className='bg-[#002616] text-white w-full flex justify-center py-[48px] sm:py-[110px]'>
-            <div className='hidden sm:grid grid-cols-1 sm:grid-cols-3 w-[80%] gap-10 xlg:gap-0 xlg:grid-cols-6 text-[14px] justify-items-start sm:justify-items-start'>
+            <div className='hidden sm:grid grid-cols-1 sm:grid-cols-3 w-[80%] gap-10 xlg:gap-0 xlg:grid-cols-6 text-[14px] justify-items-start sm:justify-items-center'>
                 <div className=' gap-2 flex items-end h-10'>
                     <Logo />
                     <p className='text-[24px] font-bold'>HousePadi</p>
