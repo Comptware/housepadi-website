@@ -56,7 +56,7 @@ const PrivacyPolicyList = () => {
                           "info@housepadi.ng"
                         )
                           ? "mailto:info@housepadi.ng"
-                          : linkStr.includes("www.housepadi.ng")
+                          : linkStr.includes("housepadi.ng")
                           ? "https://housepadi.ng/"
                           : "";
                         return linkStr.includes(linkIndicator)
