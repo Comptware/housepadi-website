@@ -180,7 +180,7 @@ const Banner = () => {
                         <div className='w-full flex flex-col mt-[65px] slg:mt-[130px] gap-[60px] px-[20px] sm:px-0'>
                             <div className='flex flex-col items-start sm:items-center slg:items-start gap-[30px] text-start sm:text-center slg:text-start'>
                                 <p className='text-[#002616] text-[32px] sm:text-[36px] xlg:text-[40px]'>Get Your <span className='text-[#7DD13A]'>Grocery shopping</span> Sorted With Housepadi</p>
-                                <p className='text-[19px] text-[#203129]'>Let's ease your stress of grocery shopping on the weekend by delivering your basic needs while offering unbeatable prices</p>
+                                <p className='text-[19px] text-[#203129]'>Let us ease your stress of grocery shopping on the weekend by delivering your basic needs while offering unbeatable prices</p>
                             </div>
 
                             <div className='sm:flex gap-[13px] hidden justify-center slg:justify-start'>
