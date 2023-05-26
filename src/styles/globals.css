@@ -493,3 +493,23 @@ div::-webkit-scrollbar-thumb {
 .no-scrollbar::-webkit-scrollbar-thumb {
   display: none;
 }
+
+
+
+
+.apps{
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.react-swipeable-view-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.react-swipeable-view-container > div {
+  flex-shrink: 0;
+  width: 100%;
+
+}
