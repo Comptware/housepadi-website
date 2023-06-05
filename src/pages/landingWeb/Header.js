@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../../assets/icons/logo.svg'
 import Hamburger from '../../assets/image/Hamburger.svg'
 import Lock from '../../assets/icons/Lock.svg'
 
 const Header = () => {
+
+    const [open, setOpen] = useState(true);
+
+    const handleOpen = () => {
+        setOpen(!open);
+    };
+
+
     return (
         <div className='flex flex-col bg-white sm:bg-transparent gap-[20px] justify-between pt-[20px] sm:pt-[35px] slg:pt-[50px] py-5 sm:py-0 px-[20px] sm:px-[50px] md:px-[70px] slg:px-[100px]'>
 
@@ -32,10 +40,24 @@ const Header = () => {
                     <button className='bg-[#002616] rounded-[190px] h-[52px] w-[170px] text-white text-[13px] font-bold'>Download The App</button>
                 </div>
 
-                <div className='flex slg:hidden items-end'>
-                <Hamburger />
+                <div onClick={handleOpen} className='flex slg:hidden items-end cursor-pointer'>
+                    <Hamburger />
+                </div>
             </div>
-            </div>
+
+
+            {open ? '' : <div className='slg:hidden flex flex-col justify-start items-start bg-[#7DD13A] px-5 sm:px-10 py-5 z-[999] fixed m-auto top-36 sm:top-24 left-0 right-0 h-[240px] w-[95%] sm:w-[80%] rounded-[16px] transition-all duration-150 ease-in-out'>
+                <div className='flex flex-col justify-center items-center w-full'>
+                    <div className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p>Service</p></div>
+                    <div className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p>Pricing</p></div>
+                    <div className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p>Contact Us</p></div>
+                    <div className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p>Download The App</p></div>
+
+                </div>
+
+
+            </div>}
+
 
 
 
