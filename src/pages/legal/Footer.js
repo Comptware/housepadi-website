@@ -1,12 +1,9 @@
 import React from 'react'
 import Logo from '../../assets/icons/logo.svg'
 import Link from 'next/link'
-import PrivacyPolicyList from 'pages/legal/privacy-policy'
-
-const Footer = ({ onPricing, onService, onFAQ }) => {
 
 
-
+const Footer = () => {
     return (
         <div className='bg-[#002616] text-[#D9DBE1] w-full flex justify-center py-[48px] sm:py-[110px]'>
             <div className='hidden sm:grid grid-cols-1 sm:grid-cols-3 w-[80%] gap-10 xlg:gap-0 xlg:grid-cols-6 text-[14px] justify-items-start sm:justify-items-center'>
@@ -19,8 +16,8 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
                     <p className='font-semibold text-[19px] text-white'>Product</p>
                     <div className='flex flex-col gap-[13px]'>
                         <p className='flex items-center gap-2'>Features <span className='new text-[#2EC5CE]'>New</span></p>
-                        <p className='cursor-pointer w-10 hover:underline hidden md:flex' onClick={onPricing}>Pricing</p>
-                        <p className='cursor-pointer w-10 hover:underline flex md:hidden' onClick={onService}>Service</p>
+                        <Link className='cursor-pointer w-10 hover:underline hidden md:flex' href={'/#offers'}><p>Pricing</p></Link>
+                        <Link className='cursor-pointer w-10 hover:underline flex md:hidden' href={'/#services'}><p>Service</p></Link>
                     </div>
 
                 </div>
@@ -39,7 +36,7 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
                 <div className='font-semibold flex flex-col gap-[16px]'>
                     <p className='font-semibold text-[19px] text-white'>Supports</p>
                     <div className='flex flex-col gap-[13px]'>
-                        <p className='cursor-pointer hover:underline w-7' onClick={onFAQ}>FAQ</p>
+                        <Link className='cursor-pointer hover:underline w-7' href={'/#Faqs'}><p>FAQ</p></Link>
                         <p>Help Center</p>
                         <Link href={'/legal/privacy-policy'}><p className='hover:underline'>Privacy Policy</p></Link>
                         <Link href={'/legal/TermsOfService'}><p className='hover:underline'>Terms of Service</p></Link>
@@ -71,7 +68,7 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
                         <p className='font-semibold text-[19px] text-white'>Product</p>
                         <div className='flex flex-col gap-[13px]'>
                             <p className='flex items-center gap-2'>Features <span className='new text-[#2EC5CE]'>New</span></p>
-                            <p className='cursor-pointer w-12 hover:underline flex md:hidden' onClick={onService}>Service</p>
+                            <p className='cursor-pointer w-12 hover:underline flex md:hidden'>Service</p>
                             {/* <p>Releases</p> */}
                         </div>
                     </div>
@@ -92,7 +89,7 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
                     <div className='font-semibold flex flex-col gap-[16px]'>
                         <p className='font-semibold text-[19px] text-white'>Supports</p>
                         <div className='flex flex-col gap-[13px]'>
-                            <p className='cursor-pointer hover:underline w-10' onClick={onFAQ}>FAQ</p>
+                            <p className='cursor-pointer hover:underline w-10'>FAQ</p>
                             <p>Help Center</p>
                             <Link className='w-32' href={'/legal/privacy-policy'}><p className='hover:underline'>Privacy Policy</p></Link>
                             <Link className='w-32' href={'/legal/TermsOfService'}><p className='hover:underline'>Terms of Service</p></Link>
@@ -127,5 +124,6 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
         </div>
     )
 }
+
 
 export default Footer

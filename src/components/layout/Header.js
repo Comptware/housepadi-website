@@ -225,7 +225,7 @@ const Header = () => {
               />
             </a>
           </div>
-        </div> */}
+        </div> 
         {/* Mobile side nav */}
       </div>
     </header>

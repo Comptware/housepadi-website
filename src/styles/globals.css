@@ -107,6 +107,14 @@
 }
 
 @font-face {
+  font-family: 'NanumPenScript-regular';
+  src: url("../assets/fonts/NanumPenScript-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "NoirPro";
   src: url("../assets/fonts/NoirPro-Regular.woff2") format("woff2"),
     url("../assets/fonts/NoirPro-Regular.woff") format("woff"),
@@ -191,6 +199,11 @@ h5 {
 h6 {
   font-family: NoirPro, Helvetica, sans-serif !important;
   font-weight: 100;
+}
+
+.new{
+  font-family: NanumPenScript-regular, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 p {
@@ -497,10 +510,10 @@ div::-webkit-scrollbar-thumb {
 
 
 
-.apps{
+.apps {
   width: 100vw;
   height: 100vh;
-  
+
 }
 
 .react-swipeable-view-container {
@@ -508,8 +521,18 @@ div::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 
-.react-swipeable-view-container > div {
+.react-swipeable-view-container>div {
   flex-shrink: 0;
   width: 100%;
 
+}
+
+
+#scroll-image::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-image {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

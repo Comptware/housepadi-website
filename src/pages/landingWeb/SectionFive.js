@@ -9,11 +9,11 @@ import Google_play from '../../assets/icons/Google_Play.svg'
 
 const SectionFive = () => {
     return (
-        <div className='px-[10px] 2xs:px-[36px] pt-[38px] pb-[99px] 2xs:py-[80px] md:py-[153px]'>
+        <div id='theDownload' className='px-[10px] 2xs:px-[36px] pt-[38px] pb-[99px] 2xs:py-[80px] md:py-[133px]'>
             <div className='hidden xlg:flex p-10 text-[48px] font-black h-[491px] gap-20 relative bg-[#7DD13A] rounded-[20px]'>
                 <div className='w-full p-10 z-[20] flex flex-col gap-[48px]'>
                     <div className='flex flex-col'>
-                        <p  >Download the app today</p>
+                        <p >Download the app today</p>
 
                         <p className='text-[18px]'>Download the app today and allow us cater to your home services needs while you sit back, relax and live a stress free life</p>
                     </div>
@@ -36,18 +36,18 @@ const SectionFive = () => {
 
             </div>
 
-            <div className='flex justify-center '>
+            <div id='contactUs' className='flex justify-center '>
                 <div className='w-[100%] md:w-[85%] h-[650px] rounded-[12px] bg-[#7DD13A] relative xlg:hidden flex items-end p-[12px] 2xs:p-[24px]'>
                     <div className='absolute left-0 top-0'><Phone_Mockup /></div>
 
                     <div className='flex flex-col gap-[20px] py-10 w-[100%] 2xs:w-[85%] xlg:w-[70%]'>
                         <div className='flex flex-col gap-3'>
                             <p className='font-black text-[36px] md:text-[48px] text-[#18191F]'>Download the HousePadi app today</p>
-                            <p className='text-[24px] text-[#18191F]'>Download the app to Simplify your home services and save time.</p>
+                            <p className='text-[20px] 3xs:text-[24px] text-[#18191F]'>Download the app to Simplify your home services and save time.</p>
                         </div>
 
                         <div className='flex flex-col text-[24px]'>
-                            <p className='text-[36px]'>Get the App</p>
+                            <p className='text-[30px] 3xs:text-[36px]'>Get the App</p>
 
                             <div className='flex gap-[4px] 2xs:gap-[15px]'>
                                 <Google_play />
@@ -64,6 +64,7 @@ const SectionFive = () => {
             </div>
 
         </div>
+
     )
 }
 

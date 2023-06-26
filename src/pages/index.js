@@ -1,6 +1,7 @@
 import Head from "next/head";
 import PrivacyPolicyList from "./legal/privacy-policy";
 import LandingPage from "./landingWeb/LandingPage";
+import TermsOfService from "./legal/TermsOfService";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="w-full">
-        {/* <PrivacyPolicyList /> */}
+{/* <TermsOfService/> */}
         <LandingPage/>
       </main>
     </>

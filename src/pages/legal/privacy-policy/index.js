@@ -6,6 +6,8 @@ import {
   linkIndicator,
   tabIndicator,
 } from "utils";
+import Header from "./Header";
+import Footer from "../Footer";
 
 const PrivacyPolicyList = () => {
   const renderTextLink = (text, link) => (
@@ -33,48 +35,50 @@ const PrivacyPolicyList = () => {
 
   return (
     <div>
-      <DashboardLayout>
-        <div className="flex flex-col justify-start items-start h-fit w-full px-6 md:px-14 lg:px-16 2xl:px-20 pt-8">
-          <h1 className="text-black bold-font text-3.5xl mb-4">
-            PRIVACY NOTICE
-          </h1>
-          <div className="w-full text-black">
-            {privacyPolicy?.split("\n").map((text, i) => {
-              return (
-                <p className="mb-6 w-full text-xl" key={text + i}>
-                  {text.split("\b").map((str) => {
-                    if (
-                      str.includes(boldIndicator) ||
-                      str.includes(tabIndicator)
-                    ) {
-                      return str.includes(tabIndicator)
-                        ? renderTabText(str.replace(tabIndicator, "") + " ")
-                        : renderBoldText(str.replace(boldIndicator, ""));
-                    } else if (str.includes(linkIndicator)) {
-                      return str.split(" ").map((linkStr) => {
-                        const linkStrLink = linkStr.includes(
-                          "info@housepadi.ng"
-                        )
-                          ? "mailto:info@housepadi.ng"
-                          : linkStr.includes("www.housepadi.ng")
+      {/* <DashboardLayout> */}
+      <Header />
+      <div className="flex flex-col justify-start items-start h-fit w-full py-14 px-5 sm:px-[50px] md:px-[70px] slg:px-[100px] pt-8">
+        <h1 className="text-black bold-font text-3.5xl mb-4">
+          PRIVACY NOTICE
+        </h1>
+        <div className="w-full text-black">
+          {privacyPolicy?.split("\n").map((text, i) => {
+            return (
+              <p className="mb-6 w-full text-xl" key={text + i}>
+                {text.split("\b").map((str) => {
+                  if (
+                    str.includes(boldIndicator) ||
+                    str.includes(tabIndicator)
+                  ) {
+                    return str.includes(tabIndicator)
+                      ? renderTabText(str.replace(tabIndicator, "") + " ")
+                      : renderBoldText(str.replace(boldIndicator, ""));
+                  } else if (str.includes(linkIndicator)) {
+                    return str.split(" ").map((linkStr) => {
+                      const linkStrLink = linkStr.includes(
+                        "info@housepadi.ng"
+                      )
+                        ? "mailto:info@housepadi.ng"
+                        : linkStr.includes("www.housepadi.ng")
                           ? "https://housepadi.ng/"
                           : "";
-                        return linkStr.includes(linkIndicator)
-                          ? renderTextLink(
-                              linkStr.replace(linkIndicator, "") + " ",
-                              linkStrLink
-                            )
-                          : linkStr + " ";
-                      });
-                    }
-                    return str + " ";
-                  })}
-                </p>
-              );
-            })}
-          </div>
+                      return linkStr.includes(linkIndicator)
+                        ? renderTextLink(
+                          linkStr.replace(linkIndicator, "") + " ",
+                          linkStrLink
+                        )
+                        : linkStr + " ";
+                    });
+                  }
+                  return str + " ";
+                })}
+              </p>
+            );
+          })}
         </div>
-      </DashboardLayout>
+      </div>
+      <Footer />
+      {/* </DashboardLayout> */}
     </div>
   );
 };
