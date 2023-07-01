@@ -1,11 +1,12 @@
-import { GREETINGS } from 'utils/greetings'
+/** @format */
+import { GREETINGS, GREETINGSS } from 'utils/greetings'
 import Apple from '../../assets/icons/apple.svg'
 import Google from '../../assets/icons/google.svg'
 import Phone from '../../assets/image/Phone.svg'
 import Iphone from '../../assets/image/iPhone.svg'
 import useInterval from 'components/hooks/useInterval'
+import Link from 'next/link'
 import React, { useEffect, useRef, useState } from "react";
-
 
 
 const Banner = () => {
@@ -19,7 +20,7 @@ const Banner = () => {
             handleSwitchGreeting();
         },
         // Delay in milliseconds or null to stop it
-        currentGreeting <= (GREETINGS.length - 1) * greetingHeight ? 3000 : null
+        currentGreeting <= (GREETINGSS.length - 1) * greetingHeight ? 3000 : null
     );
 
     const handleSwitchGreeting = () => {
@@ -27,13 +28,21 @@ const Banner = () => {
         greetingRef.current.scrollTop += greetingHeight;
     };
 
-
-
-
     return (
         <div className='w-full flex flex-col slg:flex-row gap-10 px-0 sm:px-[50px] md:px-[70px] slg:px-[100px]'>
             <div className='w-full flex flex-col mt-[65px] slg:mt-[130px] gap-[60px] px-[20px] sm:px-0'>
-                <div
+{/* 
+                <div className='overflow-y-hidden overflow-x-scroll flex'>
+                    {GREETINGSS.map((item, i) => (
+                        <Brands
+                            key={i}
+                            content={item.content}
+                            brand={item.brand}
+                        />
+
+                    ))}
+                </div> */}
+               <div
                     className=" grid grid-cols-1 gap-[50px] 3xs:gap-[69px] 2xs:gap-[3px] xs:gap-0 justify-start items-start no-scrollbar overflow-y-auto scroll-smooth snap-mandatory snap-y h-[280px] 2xs:h-[240px] slg:h-[352px] xlg:h-[270px]" ref={greetingRef}
                     onScroll={() => setCurrentGreeting(greetingRef?.current?.scrollTop)}>
                     <div
@@ -66,15 +75,19 @@ const Banner = () => {
                 </div>
 
 
-
                 <div className='sm:flex gap-[13px] hidden justify-center slg:justify-start'>
-                    <Google />
-                    <Apple />
+                    <Link href={'https://onelink.to/9weng7'} >
+                        <Google />
+                    </Link>
+
+                    <Link href={'https://onelink.to/9weng7'} >
+                        <Apple />
+                    </Link>
                 </div>
 
-                <div>
+                <Link href={'https://onelink.to/9weng7'}>
                     <button className='bg-[#002616] text-white h-[48px] w-[161px] rounded-[195px] sm:hidden'>Get Started</button>
-                </div>
+                </Link>
             </div>
 
             <div className='w-full justify-center slg:justify-end slg:mt-[130px] hidden 2xs:flex'>

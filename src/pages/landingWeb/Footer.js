@@ -10,6 +10,7 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
     return (
         <div className='bg-[#002616] text-[#D9DBE1] w-full flex justify-center py-[48px] sm:py-[110px]'>
             <div className='hidden sm:grid grid-cols-1 sm:grid-cols-3 w-[80%] gap-10 xlg:gap-0 xlg:grid-cols-6 text-[14px] justify-items-start sm:justify-items-center'>
+
                 <div className=' gap-2 flex items-end h-10'>
                     <Logo />
                     <p className='text-[24px] text-white font-bold'>HousePadi</p>
@@ -51,6 +52,8 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
                     <p>© 2023 HousePadi.
                         All Rights Reserved</p>
 
+                        <p className='font-semibold text-[18px] text-[#aaaebb]'>hello@housePadi.ng</p>
+
                 </div>
 
             </div>
@@ -61,8 +64,10 @@ const Footer = ({ onPricing, onService, onFAQ }) => {
                     <p className='text-[24px] font-bold'>HousePadi</p>
                 </div>
 
-                <div className='py-[26px]'><p>© 2023 HousePadi.
+                <div className='py-[26px] gap-3 flex flex-col'><p>© 2023 HousePadi.
                     All Rights Reserved</p>
+
+                    <p className='font-semibold text-[18px] text-[#aaaebb]'>hello@housePadi.ng</p>
                 </div>
 
                 <div className='flex flex-col gap-[32px]'>

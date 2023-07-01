@@ -536,3 +536,29 @@ div::-webkit-scrollbar-thumb {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.my-div {
+  position: relative;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1D4C41;
+  border-radius: 5px;
+
+}
+
+#scroll-image::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-image {
+-ms-overflow-style: none; 
+scrollbar-width: none;  
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}

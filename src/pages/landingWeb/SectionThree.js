@@ -4,6 +4,7 @@ import Google from '../../assets/icons/google.svg'
 import Swirl from '../../assets/image/Swirl.svg'
 import About from '../../assets/image/About.svg'
 import Sparkle from '../../assets/image/Sparkle.svg'
+import Link from 'next/link'
 
 const SectionThree = () => {
 
@@ -75,8 +76,15 @@ const SectionThree = () => {
 
 
                         <div className='hidden md:flex gap-[13px]'>
-                            <Google />
-                            <Apple />
+
+                            <Link href={'https://onelink.to/9weng7'} >
+                                <Google />
+                            </Link>
+
+                            <Link href={'https://onelink.to/9weng7'} >
+                                <Apple />
+                            </Link>
+
                         </div>
 
                     </div>
@@ -93,7 +101,7 @@ const SectionThree = () => {
                         <div>
                             <p className='text-[40px] font-bold text-[#002616]'>Our Offers</p>
                             <p className='text-[24px] text-[#203129]'>Download our app today to enjoy special offers!</p>
-                        </div> 
+                        </div>
                     </div>
 
 
@@ -144,8 +152,13 @@ const SectionThree = () => {
                     </div>
 
                     <div className='flex gap-[13px]'>
-                        <Google />
-                        <Apple />
+                        <Link href={'https://onelink.to/9weng7'} >
+                            <Google />
+                        </Link>
+
+                        <Link href={'https://onelink.to/9weng7'} >
+                            <Apple />
+                        </Link>
                     </div>
 
 
@@ -169,8 +182,8 @@ const SectionThree = () => {
                                             <p className='text-[40px] font-bold'>About Us</p>
                                             <p className='hidden 2xs:flex text-[20px] sm:text-[24px]'>At HousePadi, we are redefining the meaning of home convinence. As a dynamic startup, we currently offer expertly crafted meals from professional chef and top-tier laundry services that bring freshness right to your door. Soon, we will be expanding our repertoire to imclude hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
                                             <div className='flex flex-col gap-10 2xs:hidden text-[20px] sm:text-[24px]'>
-                                            <p className=''>At HousePadi, we are redefining the meaning of home convinence. As a dynamic startup, we currently offer expertly crafted meals from professional chef and top-tier laundry services that bring freshness right to your door. </p>
-                                            <p> Soon, we will be expanding our repertoire to imclude hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
+                                                <p className=''>At HousePadi, we are redefining the meaning of home convinence. As a dynamic startup, we currently offer expertly crafted meals from professional chef and top-tier laundry services that bring freshness right to your door. </p>
+                                                <p> Soon, we will be expanding our repertoire to imclude hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -194,7 +207,7 @@ const SectionThree = () => {
                 </div>
 
 
- 
+
 
 
             </div>

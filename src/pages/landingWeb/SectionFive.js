@@ -6,6 +6,7 @@ import Google from '../../assets/icons/google.svg'
 import Phone_Mockup from '../../assets/image/Phone_Mockup.svg'
 import App_Play from '../../assets/icons/App_Play.svg'
 import Google_play from '../../assets/icons/Google_Play.svg'
+import Link from 'next/link'
 
 const SectionFive = () => {
     return (
@@ -20,10 +21,17 @@ const SectionFive = () => {
 
                     <div className='text-[18px] flex flex-col gap-[8px]'>
                         <p>Get the App</p>
-                        <div className='flex gap-[13px]'>
-                            <Google />
-                            <Apple />
-                        </div>
+
+                        <div className='flex gap-[4px] 2xs:gap-[15px]'>
+                                <Link href={'https://onelink.to/9weng7'} >
+                                    <Google_play />
+                                </Link>
+
+                                <Link href={'https://onelink.to/9weng7'} >
+                                    <App_Play />
+                                </Link>
+
+                            </div>
                     </div>
                 </div>
 
@@ -50,8 +58,14 @@ const SectionFive = () => {
                             <p className='text-[30px] 3xs:text-[36px]'>Get the App</p>
 
                             <div className='flex gap-[4px] 2xs:gap-[15px]'>
-                                <Google_play />
-                                <App_Play />
+                                <Link href={'https://onelink.to/9weng7'} >
+                                    <Google_play />
+                                </Link>
+
+                                <Link href={'https://onelink.to/9weng7'} >
+                                    <App_Play />
+                                </Link>
+
                             </div>
 
                         </div>
