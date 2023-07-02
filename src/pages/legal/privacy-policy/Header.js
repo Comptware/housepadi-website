@@ -70,19 +70,6 @@ const Header = ({ onDownload, onService, onPricing, onServices }) => {
                     </div>
 
 
-                    {/* {open ? '' : <div className='slg:hidden flex flex-col justify-start items-start bg-[#7DD13A] px-5 sm:px-10 py-5 z-[999] fixed m-auto top-36 sm:top-24 left-0 right-0 h-[240px] w-[95%] sm:w-[80%] rounded-[16px] transition-all duration-150 ease-in-out'>
-                        <div className='flex flex-col justify-center items-center w-full'>
-                            <Link href={'/#services'} className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p onClick={handleService}>Service</p></Link>
-                            <Link href={'/#offers'} className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p onClick={handleService}>Pricing</p></Link>
-                            <div className='flex justify-start items-center hover:text-[#002616] hover:font-bold text-white text-[20px] font-light space-x-14 mb-6 cursor-pointer'><p>Contact Us</p></div>
-                            <Link href={'/#download'} className='flex justify-start items-center hover:text-white hover:font-bold text-[20px] text-[#002616] font-light space-x-14 mb-6 cursor-pointer'><p onClick={handleService}>Download The Ap p</p></Link>
-
-                        </div>
-
-
-                    </div>} */}
-
-
                     {open ? '' : <div className='llg:hidden flex flex-col justify-start items-start bg-[#e1f7ce] px-5 sm:px-10 py-5 z-[999] fixed m-auto left-0 right-0 top-0 h-[100vh] w-[100vw]  transition-all duration-150 ease-in-out'>
                         <div className='flex w-full justify-between px-2 sm:px-6 pt-5'>
                             <div className='flex items-end gap-2'>
@@ -102,11 +89,6 @@ const Header = ({ onDownload, onService, onPricing, onServices }) => {
 
 
                     </div>}
-
-
-
-
-
 
                 </div>
             </div>

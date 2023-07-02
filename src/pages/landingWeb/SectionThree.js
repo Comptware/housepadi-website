@@ -189,7 +189,10 @@ const SectionThree = () => {
                                     </div>
 
                                     <div className='hidden llg:flex justify-center p-10 relative'>
-                                        <About />
+                                        {/* <About /> */}
+                                        <div
+                                            className={`w-full bg-contain h-[190px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center about`}
+                                        />
 
                                         <div className='absolute top-0 right-0'>
                                             <Sparkle />

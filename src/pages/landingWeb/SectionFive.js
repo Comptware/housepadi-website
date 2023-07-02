@@ -23,22 +23,32 @@ const SectionFive = () => {
                         <p>Get the App</p>
 
                         <div className='flex gap-[4px] 2xs:gap-[15px]'>
-                                <Link href={'https://onelink.to/9weng7'} >
-                                    <Google_play />
-                                </Link>
+                            <Link href={'https://onelink.to/9weng7'} >
+                                <Google_play />
+                            </Link>
 
-                                <Link href={'https://onelink.to/9weng7'} >
-                                    <App_Play />
-                                </Link>
+                            <Link href={'https://onelink.to/9weng7'} >
+                                <App_Play />
+                            </Link>
 
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div className='w-full flex px-4'>
-                    <div className='absolute right-72 top-0'><Mockup1 /></div>
+                    <div className='absolute right-72 top-0'>
+                        {/* <Mockup1 /> */}
+                        <div
+                            className={`w-full bg-contain h-[464px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center mockup1`}
+                        />
+                    </div>
 
-                    <div className='absolute right-3 bottom-0'><Mockup2 /></div>
+                    <div className='absolute right-3 bottom-0'>
+                        {/* <Mockup2 /> */}
+                        <div
+                            className={`w-full bg-contain h-[464px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center mockup2`}
+                        />
+                    </div>
                 </div>
 
 
@@ -46,7 +56,12 @@ const SectionFive = () => {
 
             <div id='contactUs' className='flex justify-center '>
                 <div className='w-[100%] md:w-[85%] h-[650px] rounded-[12px] bg-[#7DD13A] relative xlg:hidden flex items-end p-[12px] 2xs:p-[24px]'>
-                    <div className='absolute left-0 top-0'><Phone_Mockup /></div>
+                    <div className='absolute left-0 top-0'>
+                        {/* <Phone_Mockup /> */}
+                        <div
+                            className={`w-full bg-contain h-[464px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phonemockup`}
+                        />
+                    </div>
 
                     <div className='flex flex-col gap-[20px] py-10 w-[100%] 2xs:w-[85%] xlg:w-[70%]'>
                         <div className='flex flex-col gap-3'>

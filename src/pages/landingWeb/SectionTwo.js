@@ -16,7 +16,10 @@ const SectionTwo = () => {
             <div className='hidden md:flex flex-col'>
                 <div className='flex flex-col-reverse slg:flex-row w-full gap-[40px] slg:gap-[15px] xxlg:gap-[30px] pt-[100px] px-[20px] sm:px-[50px] md:px-[60px] xxlg:px-[100px]'>
                     <div className='w-full flex justify-center'>
-                        <Phone1 />
+                        {/* <Phone1 /> */}
+                        <div
+                            className={`w-full bg-contain h-[716px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone1`}
+                        />
                     </div>
 
                     <div className='w-full flex flex-col gap-[22px] justify-center'>
@@ -33,7 +36,10 @@ const SectionTwo = () => {
                         </div>
 
                         <div className='w-full flex justify-center'>
-                            <Phone2 />
+                            {/* <Phone2 /> */}
+                            <div
+                                className={`w-full bg-contain h-[716px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone2`}
+                            />
                         </div>
                     </div>
                 </div>
@@ -43,7 +49,10 @@ const SectionTwo = () => {
             <div className='flex md:hidden flex-col pt-[100px] gap-[80px]'>
                 <div className='flex flex-col w-full gap-[80px]'>
                     <div className='w-full flex justify-center'>
-                        <Image1 />
+                        {/* <Image1 /> */}
+                        <div
+                                className={`w-full bg-contain h-[423px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center image1`}
+                            />
                     </div>
 
                     <div className='w-full flex flex-col gap-[22px] justify-center px-[24px]'>
@@ -55,7 +64,10 @@ const SectionTwo = () => {
 
                 <div className='flex flex-col w-full gap-[80px]'>
                     <div className='w-full flex justify-center'>
-                        <Image2 />
+                        {/* <Image2 /> */}
+                        <div
+                                className={`w-full bg-contain h-[423px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center image2`}
+                            />
                     </div>
 
                     <div className='w-full flex flex-col gap-[22px] justify-center px-[24px]'>

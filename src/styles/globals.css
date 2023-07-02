@@ -507,9 +507,6 @@ div::-webkit-scrollbar-thumb {
   display: none;
 }
 
-
-
-
 .apps {
   width: 100vw;
   height: 100vh;
@@ -556,9 +553,116 @@ div::-webkit-scrollbar-thumb {
 scrollbar-width: none;  
 }
 
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
+}
+
+.phone-bg {
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688206517/Phone_sbdgmw.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.phone-bg-xs {
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688306333/iPhone_pvv1dj.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid1 {
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304667/Grids1_j32x2w.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid2 {
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304671/Grid2_jpkhh4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid3 {
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688254359/Grid3_nb8smc.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid4 {
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304678/Grid4_uzd6sj.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.meals_xs{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304678/Meals_xs_mhp520.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.laundry_xs{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304668/Laundry_xs_y6bzhi.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cleaning_xs{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304679/Cleaning_xs_xxxqqp.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grocery_xs{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304662/Grocery_xs_xe6ybr.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.phone1{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304665/Phone1_zneu6l.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.phone2{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304667/Phone2_aary62.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.image1{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304663/Image1_gpzcmb.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.image2{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304666/Image2_lopatn.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304680/About_gvedlv.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mockup1{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304674/Mockup1_fndnmj.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mockup2{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304662/Mockup2_mwyovd.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.phonemockup{
+  background-image: url(https://res.cloudinary.com/dj0ex8nyv/image/upload/v1688304666/Phone_Mockup_rb1woc.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }

@@ -27,7 +27,10 @@ const SectionOne = () => {
 
             <div className='xs:grid grid-cols-1 llg:grid-cols-2 hidden gap-[55px] xlg:px-[70px] xxlg:px-[120px] justify-items-center llg:justify-items-center'>
                 <div className='h-[480px] w-[387px] bg-white rounded-[10px]'>
-                    <Grids1 />
+                    {/* <Grids1 /> */}
+                    <div
+                        className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid1`}
+                    />
 
                     <div className='flex flex-col gap-[19px] px-[13px]'>
                         <p className='font-bold text-[23px] pt-[32px]'>Chef Cooked Meals</p>
@@ -36,7 +39,10 @@ const SectionOne = () => {
                 </div>
 
                 <div className='h-[480px] w-[387px] bg-white rounded-[10px] llg:mt-[46px]'>
-                    <Grid3 />
+                    {/* <Grid3 /> */}
+                    <div
+                        className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid2`}
+                    />
 
                     <div className='flex flex-col gap-[19px] px-[13px]'>
                         <p className='font-bold text-[23px] pt-[32px]'>Laundry Services</p>
@@ -45,10 +51,12 @@ const SectionOne = () => {
                 </div>
 
                 <div className='h-[480px] w-[387px] bg-white rounded-[10px]'>
-                    <Grid2 />
+                    {/* <Grid2 /> */}
+                    <div
+                        className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid3`}
+                    />
 
                     <div className='flex flex-col gap-[19px] px-[13px]'>
-                        {/* <p className=''>Residential Cleaning</p> */}
 
                         <div className='flex items-center gap-[16px]  pt-[32px]'>
                             <p className='text-[23px] text-[#002616] font-bold'>Residential Cleaning</p>
@@ -59,13 +67,15 @@ const SectionOne = () => {
                 </div>
 
                 <div className='h-[480px] w-[387px] bg-white rounded-[10px] llg:mt-[46px]'>
-                    <Grid4 />
+                    {/* <Grid4 /> */}
+                    <div
+                        className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid4`}
+                    />
 
                     <div className='flex flex-col gap-[19px] px-[13px]'>
-                       
-                        
+
                         <div className='flex items-center gap-[16px] pt-[32px]'>
-                             <p className='font-bold text-[23px] text-[#002616]'>Grocery Shopping</p>
+                            <p className='font-bold text-[23px] text-[#002616]'>Grocery Shopping</p>
                             <p className='border border-[#7DD13A] text-[#7DD13A] w-[75px] h-[17px] bg-[#4cd96327] px-[12px] py-[2px] text-[8px] rounded-[3px] flex items-center'>coming soon</p>
                         </div>
                         <p className='text-[#47566B] text-[17px]'>Enjoy our hassle-free grocery shopping service - your essentials, delivered with care.</p>
@@ -84,7 +94,10 @@ const SectionOne = () => {
                 <div className='hidden 4xs:grid grid-cols-1 justify-items-center gap-[20px]'>
 
                     <div className='w-[337px] h-[430px] rounded-[8px] bg-white flex flex-col gap-[27px]'>
-                        <Meals_xs />
+                        {/* <Meals_xs /> */}
+                        <div
+                        className={`w-full bg-contain h-[233px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center meals_xs`}
+                    />
 
                         <div className='flex flex-col gap-[16px] px-[10px]'>
                             <p className='text-[#002616] font-bold text-[20px]'>Chef Cooked Meals</p>
@@ -94,7 +107,10 @@ const SectionOne = () => {
                     </div>
 
                     <div className='w-[337px] h-[430px] rounded-[8px] bg-white flex flex-col gap-[27px]'>
-                        <Laundry_xs />
+                        {/* <Laundry_xs /> */}
+                        <div
+                            className={`w-full bg-contain h-[233px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center laundry_xs`}
+                        />
 
                         <div className='flex flex-col gap-[16px] px-[10px]'>
                             <p className='text-[#002616] font-bold text-[20px]'>Laundry Services</p>
@@ -105,7 +121,10 @@ const SectionOne = () => {
 
 
                     <div className='w-[337px] h-[430px] rounded-[8px] bg-white flex flex-col gap-[27px]'>
-                        <Cleaning_xs />
+                        {/* <Cleaning_xs /> */}
+                        <div
+                            className={`w-full bg-contain h-[233px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center cleaning_xs`}
+                        />
 
                         <div className='flex flex-col gap-[16px] px-[10px]'>
                             <div className='flex items-center gap-[16px]'>
@@ -119,7 +138,10 @@ const SectionOne = () => {
 
 
                     <div className='w-[337px] h-[430px] rounded-[8px] bg-white flex flex-col gap-[27px]'>
-                        <Grocery_xs />
+                        {/* <Grocery_xs /> */}
+                        <div
+                            className={`w-full bg-contain h-[233px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grocery_xs`}
+                        />
 
                         <div className='flex flex-col gap-[16px] px-[10px]'>
                             <div className='flex items-center gap-[16px]'>

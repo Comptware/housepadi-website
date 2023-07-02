@@ -7,7 +7,7 @@ import Iphone from '../../assets/image/iPhone.svg'
 import useInterval from 'components/hooks/useInterval'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from "react";
-
+import Group from '../../assets/image/Group.png'
 
 const Banner = () => {
 
@@ -91,11 +91,17 @@ const Banner = () => {
             </div>
 
             <div className='w-full justify-center slg:justify-end slg:mt-[130px] hidden 2xs:flex'>
-                <Phone />
+              
+                <div
+                  className={`w-full bg-contain h-[500px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone-bg`}
+                />
             </div>
 
             <div className='w-full flex justify-center slg:justify-end slg:mt-[130px] bg-[#7DD13A] 2xs:hidden'>
-                <Iphone />
+                {/* <Iphone /> */}
+                <div
+                  className={`w-full bg-contain h-[400px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone-bg-xs`}
+                />
             </div>
 
 
