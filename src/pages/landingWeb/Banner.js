@@ -31,7 +31,7 @@ const Banner = () => {
     return (
         <div className='w-full flex flex-col slg:flex-row gap-10 px-0 sm:px-[50px] md:px-[70px] slg:px-[100px]'>
             <div className='w-full flex flex-col mt-[65px] slg:mt-[130px] gap-[60px] px-[20px] sm:px-0'>
-{/* 
+                {/* 
                 <div className='overflow-y-hidden overflow-x-scroll flex'>
                     {GREETINGSS.map((item, i) => (
                         <Brands
@@ -42,9 +42,17 @@ const Banner = () => {
 
                     ))}
                 </div> */}
-               <div
+                <div
                     className=" grid grid-cols-1 gap-[50px] 3xs:gap-[69px] 2xs:gap-[3px] xs:gap-0 justify-start items-start no-scrollbar overflow-y-auto scroll-smooth snap-mandatory snap-y h-[280px] 2xs:h-[240px] slg:h-[352px] xlg:h-[270px]" ref={greetingRef}
                     onScroll={() => setCurrentGreeting(greetingRef?.current?.scrollTop)}>
+                    <div
+                        // key={greeting}
+                        className='flex flex-col items-start sm:items-center slg:items-start gap-[30px] text-start sm:text-center slg:text-start 2xs:pb-24 sm:pb-20 slg:pt-0'>
+                        <p className='text-[#002616] slg:text-[32px] text-[28px] sm:text-[36px] xxlg:text-[36px]'>Get Your <span className='text-[#7DD13A]'>Chef Cooked meals</span> Sorted With Housepadi</p>
+                        <p className='text-[19px] text-[#203129]'>Get delicious meals delivered to you on a schedule</p>
+                    </div>
+
+
                     <div
                         // key={greeting}
                         className='flex flex-col slg:pt-8 xlg:pt-0 items-start sm:items-center slg:items-start gap-[30px] text-start sm:text-center slg:text-start 2xs:pt-1 text-[28px] '>
@@ -52,12 +60,6 @@ const Banner = () => {
                         <p className='text-[19px] text-[#203129] pb-[50px] 3xs:pb-[40px] 2xs:pb-[80px] slg:pb-[104px] xxlg:pb-[111px]'>Get clean clothes within 48 hours, FREE pick up and delivery</p>
                     </div>
 
-                    <div
-                        // key={greeting}
-                        className='flex flex-col items-start sm:items-center slg:items-start gap-[30px] text-start sm:text-center slg:text-start 2xs:pb-24 sm:pb-20 slg:pt-0'>
-                        <p className='text-[#002616] slg:text-[32px] text-[28px] sm:text-[36px] xxlg:text-[36px]'>Get Your <span className='text-[#7DD13A]'>Chef Cooked meals</span> Sorted With Housepadi</p>
-                        <p className='text-[19px] text-[#203129]'>Get delicious meals delivered to you on a schedule</p>
-                    </div>
 
                     <div
                         // key={greeting}
@@ -91,16 +93,16 @@ const Banner = () => {
             </div>
 
             <div className='w-full justify-center slg:justify-end slg:mt-[130px] hidden 2xs:flex'>
-              
+
                 <div
-                  className={`w-full bg-contain h-[500px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone-bg`}
+                    className={`w-full bg-contain h-[500px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone-bg`}
                 />
             </div>
 
             <div className='w-full flex justify-center slg:justify-end slg:mt-[130px] bg-[#7DD13A] 2xs:hidden'>
                 {/* <Iphone /> */}
                 <div
-                  className={`w-full bg-contain h-[400px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone-bg-xs`}
+                    className={`w-full bg-contain h-[400px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center phone-bg-xs`}
                 />
             </div>
 
