@@ -34,7 +34,7 @@ const Banner = () => {
             <div className='w-full flex flex-col mt-[65px] slg:mt-[130px] gap-[60px] px-[20px] sm:px-0'>
 
                 <div
-                    className="  justify-start items-start no-scrollbar overflow-y-auto scroll-smooth snap-mandatory snap-y h-[260px] xlg:h-[240px]" ref={greetingRef}
+                    className="  justify-start items-start no-scrollbar overflow-y-auto scroll-smooth snap-mandatory snap-y h-[258px] xlg:h-[240px]" ref={greetingRef}
                     onScroll={() => setCurrentGreeting(greetingRef?.current?.scrollTop)}>
 
                     {GREETINGSS.map((item, i) => (
