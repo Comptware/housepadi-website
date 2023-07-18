@@ -102,7 +102,7 @@ const SectionOne = () => {
                         <div className='flex flex-col gap-[16px] px-[10px]'>
                             <p className='text-[#002616] font-bold text-[20px]'>Chef Cooked Meals</p>
 
-                            <p className='text-[16px] text-[#47566b90]'>Experience convenience with our premium laundry service - clean clothes, no effort required.</p>
+                            <p className='text-[16px] text-[#47566b90]'>Indulge in our chef-crafted meal service - gourmet dining, delivered right to your doorstep.</p>
                         </div>
                     </div>
 
@@ -115,7 +115,7 @@ const SectionOne = () => {
                         <div className='flex flex-col gap-[16px] px-[10px]'>
                             <p className='text-[#002616] font-bold text-[20px]'>Laundry Services</p>
 
-                            <p className='text-[16px] text-[#47566b90]'>Experience a sparkling home with our top-notch residential cleaning service - cleanliness, just a click away.</p>
+                            <p className='text-[16px] text-[#47566b90]'>Experience convenience with our premium laundry service - clean clothes, no effort required.</p>
                         </div>
                     </div>
 
@@ -132,7 +132,7 @@ const SectionOne = () => {
                                 <p className='border border-[#7DD13A] text-[#7DD13A] w-[75px] h-[17px] bg-[#4cd96327] px-[12px] py-[2px] text-[8px] rounded-[3px] flex items-center'>coming soon</p>
                             </div>
 
-                            <p className='text-[16px] text-[#47566b90]'>Enjoy our hassle-free grocery shopping service - your essentials, delivered with care.</p>
+                            <p className='text-[16px] text-[#47566b90]'>Experience a sparkling home with our top-notch residential cleaning service - cleanliness, just a click away.</p>
                         </div>
                     </div>
 
@@ -149,7 +149,7 @@ const SectionOne = () => {
                                 <p className='border border-[#7DD13A] text-[#7DD13A] w-[75px] h-[17px] bg-[#4cd96327] px-[12px] py-[2px] text-[8px] rounded-[3px] flex items-center'>coming soon</p>
                             </div>
 
-                            <p className='text-[16px] text-[#47566b90]'>Indulge in our chef-crafted meal service - gourmet dining, delivered right to your doorstep.</p>
+                            <p className='text-[16px] text-[#47566b90]'>Enjoy our hassle-free grocery shopping service - your essentials, delivered with care.</p>
                         </div>
                     </div>
 
