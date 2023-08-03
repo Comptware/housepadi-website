@@ -85,7 +85,7 @@ const SectionFour = () => {
 
 
     return (
-        <div id='Faqs' className='pt-[100px] pb-[140px] bg-[#F6F6F6] px-[20px] sm:px-[50px] md:px-[70px] slg:px-[100px] text-[#002616]'>
+        <div id='faqs'  className='pt-[100px] pb-[140px] bg-[#F6F6F6] px-[20px] sm:px-[50px] md:px-[70px] slg:px-[100px] text-[#002616]'>
             <div className='pb-[85px]'>
                 <p className='text-[#002616] text-[36px] sm:text-[48px] w-[300px] sm:w-[456px] font-bold'>Frequently asked <span className='text-[#7DD13A]'>questions</span></p>
             </div>

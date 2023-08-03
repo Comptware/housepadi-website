@@ -14,7 +14,7 @@ const Faq = () => {
   }
 
   return (
-    <div id='faqs' className='bg-[#F6F6F6] text-black w-full flex flex-col items-center gap-5'>
+    <div className='bg-[#F6F6F6] text-black w-full flex flex-col items-center gap-5'>
       <p className='font-bold w-[85%] flex text-center justify-center 3xs:w-[75%] slg:w-[60%] text-[20px] sm:text-[24px] md:text-[32px] px-5'>Got more questions, let us know</p>
 
       <div className='w-[88%] sm:w-[75%] slg:w-[60%] flex flex-col gap-[16px]'>

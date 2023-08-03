@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className='font-semibold flex flex-col gap-[16px]'>
                     <p className='font-semibold text-[19px] text-white'>Supports</p>
                     <div className='flex flex-col gap-[13px]'>
-                        <Link className='cursor-pointer hover:underline w-7' href={'/#Faqs'}><p>FAQ</p></Link>
+                        <Link className='cursor-pointer hover:underline w-7' href={'https://www.housepadi.ng/#faqs'}><p>FAQ</p></Link>
                         <p>Help Center</p>
                         <Link href={'/legal/privacy-policy'}><p className='hover:underline'>Privacy Policy</p></Link>
                         <Link href={'/legal/TermsOfService'}><p className='hover:underline'>Terms of Service</p></Link>
