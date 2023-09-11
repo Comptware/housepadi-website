@@ -180,10 +180,10 @@ const SectionThree = () => {
                                     <div className='flex flex-col  xxlg:w-[85%] gap-[22px] '>
                                         <div className='llg:w-[704px] pt-[50px] slg:pt-[80px] flex flex-col gap-[22px]'>
                                             <p className='text-[40px] font-bold'>About Us</p>
-                                            <p className='hidden 2xs:flex text-[20px] sm:text-[24px]'>At HousePadi, we are redefining the meaning of home convinence. As a dynamic startup, we currently offer expertly crafted meals from professional chef and top-tier laundry services that bring freshness right to your door. Soon, we will be expanding our repertoire to imclude hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
+                                            <p className='hidden 2xs:flex text-[20px] sm:text-[24px]'>At HousePadi, we are redefining the meaning of home convinence. As a dynamic startup, we currently offer expertly crafted meals from professional chef and top-tier laundry services that bring freshness right to your door. Soon, we will be expanding our repertoire to include hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
                                             <div className='flex flex-col gap-10 2xs:hidden text-[20px] sm:text-[24px]'>
                                                 <p className=''>At HousePadi, we are redefining the meaning of home convinence. As a dynamic startup, we currently offer expertly crafted meals from professional chef and top-tier laundry services that bring freshness right to your door. </p>
-                                                <p> Soon, we will be expanding our repertoire to imclude hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
+                                                <p> Soon, we will be expanding our repertoire to include hassle-free grocery shopping and meticulous residential cleaning services. With HousePadi, you can relax knowing we have got home needs covered.</p>
                                             </div>
                                         </div>
                                     </div>
