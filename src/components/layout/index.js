@@ -2,10 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useRouter } from "next/router";
 import Head from "next/head";
-
 import Footer from "./Footer";
 import Header from "./Header";
 import { getPageByPath } from "utils/pages";
+// import Header from "pages/landingWeb/Header";
+// import Footer from "pages/landingWeb/Footer";
 
 const Layout = ({ children }) => {
   const location = useRouter();
@@ -32,7 +33,7 @@ const Layout = ({ children }) => {
       <Header />
       <section className="w-full flex flex-row flex-grow">
         <main
-          className={`website-content w-full pt-[95px] md:pt-[14px] md:mt-[80px] flex flex-col flex-grow bg-white`}
+          className={`website-content w-full  md:pt-[14px] md:mt-[15px] flex flex-col flex-grow bg-white`}
         >
           {children}
         </main>
