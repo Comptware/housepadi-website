@@ -91,7 +91,7 @@ const SectionFour = () => {
             </div>
 
             <div className='flex flex-col gap-[22px]'>
-                <div onClick={handleOpen} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
+                <div onClick={handleOpen} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>What is HousePadi?</p>
 
@@ -102,7 +102,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen2} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
+                <div onClick={handleOpen2} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>What services do we offer?</p>
 
@@ -113,7 +113,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen3} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
+                <div onClick={handleOpen3} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How does it work?</p>
 
@@ -124,7 +124,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen4} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
+                <div onClick={handleOpen4} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>Why should I download the HousePadi Mobile App?</p>
 
@@ -135,7 +135,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen5} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
+                <div onClick={handleOpen5} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>Can I make a one-off order or I need to subscribe?</p>
 
@@ -146,7 +146,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen6} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
+                <div onClick={handleOpen6} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[26px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How flexible is the subscription plan?</p>
 
@@ -157,7 +157,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen7} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen7} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How do I make payments for selected services?</p>
 
@@ -168,7 +168,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen8} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen8} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>What is our policy on missing or damaged items?</p>
 
@@ -179,7 +179,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen9} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen9} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>What’s the difference between your meals and other regular meal apps?</p>
 
@@ -190,7 +190,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen10} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen10} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>What is the difference between Regular Meals, Bowls and Special Diets?</p>
 
@@ -204,7 +204,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen11} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen11} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How does the laundry service work?</p>
 
@@ -215,7 +215,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen12} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen12} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>What locations is HousePadi available in?</p>
 
@@ -226,7 +226,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen13} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen13} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How do I get started?</p>
 
@@ -237,7 +237,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen14} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen14} className='bg-white shadow shadow-[#a29f9f51] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How do I make payment??</p>
 
@@ -248,7 +248,7 @@ const SectionFour = () => {
 
                 </div>
 
-                <div onClick={handleOpen15} className='bg-white cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
+                <div onClick={handleOpen15} className='bg-white shadow shadow-[#94e09489] cursor-pointer p-[30px] rounded-[12px] text-[18px] flex flex-col gap-[27px]'>
                     <div className='flex justify-between'>
                         <p className='font-bold'>How do I contact you?</p>
 

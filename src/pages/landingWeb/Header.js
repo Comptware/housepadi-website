@@ -36,9 +36,9 @@ const Header = ({ onDownload, onService, onPricing, onServices, onContact }) => 
 
     return (
         <header className="header">
-            <div className={`header-content ${isSticky ? 'sticky bg-[#ffffff] pb-3 z-30' : ''}`}>
+            <div className={`header-content ${isSticky ? 'sticky bg-[#ffffff] pb-3 z-30 shadow shadow-b-[a29f9f51]' : ''}`}>
 
-                <div className='flex flex-col bg-white sm:bg-transparent gap-[20px] justify-between pt-[20px] sm:pt-[35px] slg:pt-[50px] py-5 sm:py-0 px-[20px] sm:px-[50px] md:px-[70px] slg:px-[100px]'>
+                <div className='flex flex-col bg-white sm:bg-transparent gap-[20px] justify-between pt-[20px] sm:pt-[30px] py-5 sm:py-0 px-[20px] sm:px-[50px] md:px-[70px] slg:px-[100px]'>
 
                     <div className="w-full flex sm:hidden">
                         <div className="h-[36px] w-full rounded-[10px] bg-[#0000000a] px-[10px] flex justify-center items-center">

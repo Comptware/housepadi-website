@@ -26,7 +26,7 @@ const SectionOne = () => {
             </div>
 
             <div className='xs:grid grid-cols-1 llg:grid-cols-2 hidden gap-[55px] xlg:px-[70px] xxlg:px-[120px] justify-items-center llg:justify-items-center'>
-                <div className='h-[480px] w-[387px] bg-white rounded-[10px]'>
+                <div className='h-[480px] w-[387px] shadow shadow-[#bbc6ab90] bg-white rounded-[10px]'>
                     {/* <Grids1 /> */}
                     <div
                         className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid1`}
@@ -38,7 +38,7 @@ const SectionOne = () => {
                     </div>
                 </div>
 
-                <div className='h-[480px] w-[387px] bg-white rounded-[10px] llg:mt-[46px]'>
+                <div className='h-[480px] w-[387px] shadow shadow-[#bbc6ab90] bg-white rounded-[10px] llg:mt-[46px]'>
                     {/* <Grid3 /> */}
                     <div
                         className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid2`}
@@ -50,7 +50,7 @@ const SectionOne = () => {
                     </div>
                 </div>
 
-                <div className='h-[480px] w-[387px] bg-white rounded-[10px]'>
+                <div className='h-[480px] w-[387px] shadow shadow-[#bbc6ab90] bg-white rounded-[10px]'>
                     {/* <Grid2 /> */}
                     <div
                         className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid3`}
@@ -66,7 +66,7 @@ const SectionOne = () => {
                     </div>
                 </div>
 
-                <div className='h-[480px] w-[387px] bg-white rounded-[10px] llg:mt-[46px]'>
+                <div className='h-[480px] w-[387px] shadow shadow-[#bbc6ab90] bg-white rounded-[10px] llg:mt-[46px]'>
                     {/* <Grid4 /> */}
                     <div
                         className={`w-full bg-contain h-[268px] bg-no-repeat p-0 pb-[calc(100% * 3 / 4)] bg-center grid4`}
